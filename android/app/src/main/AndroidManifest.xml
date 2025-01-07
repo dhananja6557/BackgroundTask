@@ -25,5 +25,6 @@
         </intent-filter>
       </activity>
       <service android:name="com.voximplant.foregroundservice.VIForegroundService"> </service>
+      <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" android:foregroundServiceType="shortService"/>
     </application>
 </manifest>
