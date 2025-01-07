@@ -8,7 +8,7 @@ node_modules > @voximplant > android > build.gradle
 
    Change versions as in android > build.gradle
 
-// Permissions
+// AndroidManifest.xml Permissions
 <uses-permission android:name="android.permission.WAKE_LOCK"/>
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
